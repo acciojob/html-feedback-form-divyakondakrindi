@@ -11,43 +11,43 @@
 </head>
 
 <body>
-	<h3>Feedback Form</h3>
+	 <h2>Feedback Form</h2>
         <form action="#" method="post">
         <div>
             <div class = "font-field">
                 <label for="names">Name</label>
             </div>
             <div>
-                <input  class ="box" id="name" type="text" min="3" max="50" placeholder="name">
+                <input  class ="box" id="name" type="text" minlength="3" maxlength="50" placeholder="name" required>
             </div>
         </div>
         <div>
             <div class = "font-field">
-                <label for ="porfolioPage">User Web Page</label>
+                <label for ="portfolio">Portfolio</label>
             </div>
             <div>
-                <input class ="box" id = "portfolio" type ="url" placeholder="link of your user web page">
+                <input class ="box" id = "portfolio" type ="url" placeholder="link of your user web page" required>
             </div>
         </div>
         <div>
             <div class = "font-field">
-                <label  for ="color" >Favourite colour</label>
+                <label  for ="favColor" >Favourite colour</label>
             </div>
             <div>
-                <input  class ="box" id ="favColor" type="text" placeholder="your favourite color">
+                <input  class ="box" id ="favColor" type="color" placeholder="your favourite color" required>
             </div>
         </div>
         <div>
             <div class = "font-field">
-                <label for ="rateing">How much you like their colour ?</label>
+                <label for ="likeness">How much you like your favourite colour ?</label>
             </div>
             <div >
-                <input class ="box" id ="likeness" type="number" min ="1" max ="100" >
+                <input class ="box" id ="likeness" type="range" min ="1" max ="100" required>
             </div>
+            <input  class ="btn" type ="submit" value = "submit">
         </div>
 
         
-            <button class ="btn">Submit</button>
         </form>
        
 	<!-- the entire body must be written by student -->
