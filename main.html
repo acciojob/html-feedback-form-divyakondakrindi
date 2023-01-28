@@ -4,9 +4,52 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        
 </head>
 
 <body>
+	<h3>Feedback Form</h3>
+        <form action="#" method="post">
+        <div>
+            <div class = "font-field">
+                <label for="names">Name</label>
+            </div>
+            <div>
+                <input  class ="box" id="name" type="text" min="3" max="50" placeholder="name">
+            </div>
+        </div>
+        <div>
+            <div class = "font-field">
+                <label for ="porfolioPage">User Web Page</label>
+            </div>
+            <div>
+                <input class ="box" id = "portfolio" type ="url" placeholder="link of your user web page">
+            </div>
+        </div>
+        <div>
+            <div class = "font-field">
+                <label  for ="color" >Favourite colour</label>
+            </div>
+            <div>
+                <input  class ="box" id ="favColor" type="text" placeholder="your favourite color">
+            </div>
+        </div>
+        <div>
+            <div class = "font-field">
+                <label for ="rateing">How much you like their colour ?</label>
+            </div>
+            <div >
+                <input class ="box" id ="likeness" type="number" min ="1" max ="100" >
+            </div>
+        </div>
+
+        
+            <button class ="btn">Submit</button>
+        </form>
+       
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
